@@ -226,9 +226,9 @@ body {
 }
 
 .contact-link:hover {
-    background: #00ff41;
+    background: #f7931a;
     color: #000;
-    box-shadow: 0 0 20px #00ff41;
+    box-shadow: 0 0 20px #f7931a;
 }
 
 /* Terminal prompt */
@@ -363,9 +363,9 @@ body {
 }
 
 .copy-btn:hover {
-  background: #00ff41;
+  background: #f7931a;
   color: #000;
-  box-shadow: 0 0 10px #00ff41;
+  box-shadow: 0 0 10px #f7931a;
 }
 
 .donation-note {
