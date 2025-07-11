@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>El Nino Fadhila H. | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://github.githubassets.com/favicons/favicon.png" />
+</head>
+
+<body>
+
+  <!-- Matrix background -->
+  <div class="matrix-bg" id="matrix"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo-area">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg" class="bitcoin-logo" alt="Bitcoin Logo" />
+      <span class="site-title"></span>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#donate">Donate</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main class="container">
+    <section class="hero">
+      <h1>El Nino Fadhila Hamzah</h1>
+      <p class="subtitle typing-text">Peer-to-Peer. Decentralized. Encrypted.</p>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p class="terminal-prompt">
+        Coder independen yang melek akan kebebasan digital.
+      </p>
+    </section>
+
+    <section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+
+    <a href="https://scratch.mit.edu/projects/620624449" target="_blank" class="project-card">
+      <h3>Shoot The Meteor (2022)</h3>
+      <p>Game 2D interaktif berbasis Scratch bertemakan luar angkasa.</p>
+    </a>
+
+    <a href="https://x.thunkable.com/projects/674efc2c1bb76a1e1a52350f/409998c6-0aac-4f01-8cc1-35e46b0611a4/designer" target="_blank" class="project-card">
+      <h3>MerdekaCuan (2025)</h3>
+      <p>Aplikasi budgeting pengeluaran bulanan berbasis Thunkable</p>
+    </a>
+
+  </div>
+</section>
+
+   <section id="donate" class="section">
+  <h2>Support me with BTC!</h2>
+  <div class="donation-box">
+    <img class="qr-code" src="https://api.qrserver.com/v1/create-qr-code/?data=bc1qx0vfdluv7jrjuavtkletkjhawpxvevn9vmygwn&size=200x200&bgcolor=000000&color=ffffff" alt="Bitcoin QR Code" />
+    <div class="wallet-text">
+      <p class="wallet-label">Wallet Address:</p>
+      <div class="wallet-address-box">
+        <code id="wallet-address">bc1qx0vfdluv7jrjuavtkletkjhawpxvevn9vmygwn</code>
+        <button class="copy-btn" onclick="copyAddress()">
+          <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M10 1H2.5A1.5 1.5 0 0 0 1 2.5v9A1.5 1.5 0 0 0 2.5 13H3v1.5A1.5 1.5 0 0 0 4.5 16h9a1.5 1.5 0 0 0 1.5-1.5V6l-5-5zM2.5 2H9v4h4v5.5a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5z"/>
+          </svg>
+        </button>
+      </div>
+      <p class="donation-note">₿ Thank you for your support!</p>
+    </div>
+  </div>
+</section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="contact-links">
+        <a href="https://t.me/elninofhmz" target="_blank" class="contact-link">Telegram</a>
+        <a href="mailto:elninofhmz@gmail.com" class="contact-link">Email</a>
+        <a href="#" class="contact-link">PGP Key</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
